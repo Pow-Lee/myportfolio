@@ -1,0 +1,19 @@
+
+.profile-image {
+	width: 100%;
+}
+
+a:link {color: black;}      /* unvisited link */
+a:visited {color: black;}   /* visited link */
+a:hover {color: black;}     /* mouse over link */
+a:active {color: black;} 
+
+
+nav {
+	background-color: gray;
+	height: 50px;
+}
+
+li {
+	display: inline;
+}

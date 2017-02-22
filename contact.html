@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pohua Lee</title>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+<body>
+
+<div class="container">
+	
+	<div class="row">
+		<nav>
+			<div id="logo" class="col-md-2"> <h1>Pohua Lee</h1></div>
+
+			<div class="col-md-4"> 
+				<ul>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+			<div class="col-md-4"> 
+
+				<ul>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Instagram</a></li>
+					<li><a href="#">LinkedIn</a></li>
+				</ul>
+
+			</div>
+		</nav>
+
+	</div>
+
+	<div class="row">
+		
+		<div class="col-md-6"> 
+			<div class="row">
+			<h3>Contact Me</h3>
+			<p>You can reach me with any of these:</p>
+			</div>
+			<div class="row">
+				<ul>
+					<li>Facebook</li>
+					<li>Instagram</li>
+					<li>LinkedIn</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-6 profile-image"> <img src="images/pohua.jpg" width="50%" height="75%"></div>
+
+	</div>
+
+	<div class="row">
+		
+		<form action="php/contact.php" method="POST">
+			<p>Name</p> <input type="text" name="name">
+			<p>Email</p> <input type="text" name="email">
+			<p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
+			<input type="submit" value="Send"><input type="reset" value="Clear">
+		</form>
+
+	</div>
+
+	<footer>Copy Right By Pohua Lee</footer>
+
+</div>
+
+</body>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+</html>
